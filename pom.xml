@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>jp.reflexworks</groupId>
-  <artifactId>vtecx-pushnotification</artifactId>
+  <artifactId>vtecxj-pushnotification</artifactId>
   <version>9.0.0</version>
   <packaging>jar</packaging>
 
@@ -18,10 +18,10 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <basedir>.</basedir>
-    <vtecx-core-version>9.0.0</vtecx-core-version>
-    <vtecx-bdbclient-version>9.0.0</vtecx-bdbclient-version>
-    <vtecx-redis-version>9.0.0</vtecx-redis-version>
-    <vtecx-storage-version>9.0.0</vtecx-storage-version>
+    <vtecxj-core-version>9.0.0</vtecxj-core-version>
+    <vtecxj-bdbclient-version>9.0.0</vtecxj-bdbclient-version>
+    <vtecxj-redis-version>9.0.0</vtecxj-redis-version>
+    <vtecxj-storage-version>9.0.0</vtecxj-storage-version>
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
   </properties>
@@ -43,8 +43,8 @@
   <dependencies>
     <dependency>
       <groupId>jp.reflexworks</groupId>
-      <artifactId>vtecx-core</artifactId>
-      <version>${vtecx-core-version}</version>
+      <artifactId>vtecxj-core</artifactId>
+      <version>${vtecxj-core-version}</version>
     </dependency>
 
     <dependency>
